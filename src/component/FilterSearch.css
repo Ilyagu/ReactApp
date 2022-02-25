@@ -1,0 +1,51 @@
+.navBar{
+    width: 90%;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.navBar-icons{
+    margin:auto;
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+}
+
+.search-container{
+    width: 300px;
+    height: 36px;
+
+    background: #F2F2F2;
+    border-radius: 12px;
+}
+
+.search-logo{
+    margin: 8px;
+    margin-left: 15px;
+}
+
+input[type="text"]
+{
+    position: absolute;
+
+    margin: 8px;
+
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+
+    font-family: SF Pro Rounded;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #000000;
+}

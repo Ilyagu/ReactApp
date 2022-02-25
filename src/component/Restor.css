@@ -3,8 +3,8 @@
   width: 363px;
   height: 132px;
   display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
 
   background: #F2F2F2;
   box-shadow: 5px 5px 20px 5px rgba(57, 57, 57, 0.15);
@@ -13,9 +13,9 @@
 
 .restorContainerImg {
   display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 4;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 4;
 
   margin-top: 12px;
   margin-left: 12px;

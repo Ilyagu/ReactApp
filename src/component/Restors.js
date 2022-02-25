@@ -8,7 +8,7 @@ export default class Restors extends React.Component {
             <Restor key={restor.id} restor={restor} />
         );
         return (
-            <div>
+            <div className='restors'>
                 {restorsList}
             </div>
         );
